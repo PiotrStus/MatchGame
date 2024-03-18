@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Prson\\Programms\\MatchGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E513FA1-04B4-4A22-A398-2AF9594AE6FC}|MatchGame\\MatchGame.csproj|c:\\prson\\programms\\matchgame\\matchgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6E513FA1-04B4-4A22-A398-2AF9594AE6FC}|MatchGame\\MatchGame.csproj|solutionrelative:matchgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{482200A1-5ED7-48CE-A235-68BAB22A1FC3}|MatchGame\\MatchGame.csproj|c:\\prson\\programms\\matchgame\\matchgame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{482200A1-5ED7-48CE-A235-68BAB22A1FC3}|MatchGame\\MatchGame.csproj|solutionrelative:matchgame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E513FA1-04B4-4A22-A398-2AF9594AE6FC}|MatchGame\\MatchGame.csproj|c:\\prson\\programms\\matchgame\\matchgame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E513FA1-04B4-4A22-A398-2AF9594AE6FC}|MatchGame\\MatchGame.csproj|solutionrelative:matchgame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{482200A1-5ED7-48CE-A235-68BAB22A1FC3}|MatchGame\\MatchGame.csproj|c:\\prson\\programms\\matchgame\\matchgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{482200A1-5ED7-48CE-A235-68BAB22A1FC3}|MatchGame\\MatchGame.csproj|solutionrelative:matchgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{482200A1-5ED7-48CE-A235-68BAB22A1FC3}|MatchGame\\MatchGame.csproj|c:\\prson\\programms\\matchgame\\matchgame\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{482200A1-5ED7-48CE-A235-68BAB22A1FC3}|MatchGame\\MatchGame.csproj|solutionrelative:matchgame\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +22,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Prson\\Programms\\MatchGame\\MatchGame\\App.xaml",
+              "RelativeDocumentMoniker": "MatchGame\\App.xaml",
+              "ToolTip": "C:\\Prson\\Programms\\MatchGame\\MatchGame\\App.xaml",
+              "RelativeToolTip": "MatchGame\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-18T07:09:49.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Prson\\Programms\\MatchGame\\MatchGame\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MatchGame\\MainWindow.xaml",
               "ToolTip": "C:\\Prson\\Programms\\MatchGame\\MatchGame\\MainWindow.xaml",
               "RelativeToolTip": "MatchGame\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-16T21:05:32.587Z",
+              "WhenOpened": "2024-03-16T21:26:44.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Prson\\Programms\\MatchGame\\MatchGame\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MatchGame\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Prson\\Programms\\MatchGame\\MatchGame\\MainWindow.xaml.cs",
               "RelativeToolTip": "MatchGame\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T21:05:26.78Z"
+              "WhenOpened": "2024-03-16T21:26:43.083Z",
+              "EditorCaption": ""
             }
           ]
         }

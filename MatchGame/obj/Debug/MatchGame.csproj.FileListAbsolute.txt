@@ -1,0 +1,15 @@
+C:\Prson\Programms\MatchGame\MatchGame\bin\Debug\MatchGame.exe.config
+C:\Prson\Programms\MatchGame\MatchGame\bin\Debug\MatchGame.exe
+C:\Prson\Programms\MatchGame\MatchGame\bin\Debug\MatchGame.pdb
+C:\Prson\Programms\MatchGame\MatchGame\obj\Debug\MatchGame.csproj.AssemblyReference.cache
+C:\Prson\Programms\MatchGame\MatchGame\obj\Debug\MainWindow.g.cs
+C:\Prson\Programms\MatchGame\MatchGame\obj\Debug\App.g.cs
+C:\Prson\Programms\MatchGame\MatchGame\obj\Debug\MatchGame_MarkupCompile.cache
+C:\Prson\Programms\MatchGame\MatchGame\obj\Debug\MatchGame_MarkupCompile.lref
+C:\Prson\Programms\MatchGame\MatchGame\obj\Debug\MainWindow.baml
+C:\Prson\Programms\MatchGame\MatchGame\obj\Debug\MatchGame.g.resources
+C:\Prson\Programms\MatchGame\MatchGame\obj\Debug\MatchGame.Properties.Resources.resources
+C:\Prson\Programms\MatchGame\MatchGame\obj\Debug\MatchGame.csproj.GenerateResource.cache
+C:\Prson\Programms\MatchGame\MatchGame\obj\Debug\MatchGame.csproj.CoreCompileInputs.cache
+C:\Prson\Programms\MatchGame\MatchGame\obj\Debug\MatchGame.exe
+C:\Prson\Programms\MatchGame\MatchGame\obj\Debug\MatchGame.pdb
