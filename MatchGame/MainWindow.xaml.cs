@@ -15,34 +15,50 @@ using System.Windows.Shapes;
 
 namespace MatchGame
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-
     using System.Windows.Threading;
     public partial class MainWindow : Window
     {
         DispatcherTimer timer = new DispatcherTimer();
         int tenthsOfSecondsElapsed;
         int matchesFound;
+        float bestTime;
+        float lastResult;
         public MainWindow()
         {
+            bestTime = 0;
             InitializeComponent();
 
             timer.Interval = TimeSpan.FromSeconds(.1);
             timer.Tick += Timer_Tick;
             SetUpGame();
+            
         }
-
+        
         private void Timer_Tick(object sender, EventArgs e)
         {
-            tenthsOfSecondsElapsed++;
+            tenthsOfSecondsElapsed--;
             timeTextBlock.Text = (tenthsOfSecondsElapsed / 10F).ToString("0.0s");
             if (matchesFound == 8)
             {
                 timer.Stop();
                 timeTextBlock.Text = timeTextBlock.Text + " - Play again?";
+                lastResult = tenthsOfSecondsElapsed / 10F;
+                if (lastResult < bestTime || bestTime == 0)
+                {
+                    timeTextBlock.Text = (15 - lastResult).ToString() + " s" + " - Play again?";
+                    bestTime = (15-lastResult);
+                    bestScoreBlock.Text = "Best score: " + bestTime.ToString() + " s";
+                }
+                Console.WriteLine("bestTime: " + bestTime);
+                
             }
+            if (tenthsOfSecondsElapsed < 0)
+            {
+                timer.Stop();
+                timeTextBlock.Text = " Game over - Play again?";
+            }
+
+
         }
 
         private void SetUpGame()
@@ -60,10 +76,10 @@ namespace MatchGame
             };
 
             Random random = new Random();
-
+            
             foreach (TextBlock textBlock in mainGrid.Children.OfType<TextBlock>())
             {
-                if (textBlock.Name != "timeTextBlock")
+                if (textBlock.Name != "timeTextBlock" && textBlock.Name != "bestScoreBlock")
                 { 
                 textBlock.Visibility = Visibility.Visible;
                 int index = random.Next(animalEmoji.Count);
@@ -76,8 +92,9 @@ namespace MatchGame
                 }
             }
             timer.Start();
-            tenthsOfSecondsElapsed = 0;
+            tenthsOfSecondsElapsed = 150;
             matchesFound = 0;
+            
         }
 
         TextBlock lastTextBlockClicked;
@@ -109,7 +126,7 @@ namespace MatchGame
 
         private void TimeTextBlock_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            if (matchesFound == 8)
+            if (matchesFound == 8 || tenthsOfSecondsElapsed < 0)
             {
                 SetUpGame();
             }

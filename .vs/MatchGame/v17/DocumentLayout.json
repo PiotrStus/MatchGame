@@ -34,6 +34,7 @@
               "RelativeToolTip": "MatchGame\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-16T21:26:44.558Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -56,7 +57,7 @@
               "RelativeDocumentMoniker": "MatchGame\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Prson\\Programms\\MatchGame\\MatchGame\\MainWindow.xaml.cs",
               "RelativeToolTip": "MatchGame\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAvwCgAAAAiAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwDwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T21:26:43.083Z",
               "EditorCaption": ""
